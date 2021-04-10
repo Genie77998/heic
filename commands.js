@@ -18,7 +18,6 @@ async function run(prefixDir) {
   console.log('读取文件夹...')
   if (fs.statSync(prefixDir).isDirectory()) {
     const images = fs.readdirSync(prefixDir)
-    console.log(images)
     images.forEach((fileFullName, index) => {
       const filePath = pathJoin(prefixDir, fileFullName)
       const file = fs.statSync(filePath)

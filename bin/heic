@@ -1,3 +1,2 @@
 #!/usr/bin/env node
-const commands = require('../commands.js')
-commands()
+require('../commands.js')()
