@@ -42,6 +42,9 @@ async function run(prefixDir) {
   for (let realImage of realImages) {
     await convertImage(realImage)
   }
+  if (total > 0) {
+    console.log(`共耗时${Math.ceil((Date.now() - start) / 1000)}秒`)
+  }
   async function convertImage(file) {
     const inputBuffer = fs.readFileSync(file.filePath)
     await convert({

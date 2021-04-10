@@ -1,5 +1,5 @@
 {
-  "name": "heic2jpg",
+  "name": "heic2jpeg",
   "version": "1.0.0",
   "description": "heic 转jpg",
   "bin": {
