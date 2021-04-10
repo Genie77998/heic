@@ -1,0 +1,24 @@
+{
+  "name": "heic2jpg",
+  "version": "1.0.0",
+  "description": "heic 转jpg",
+  "bin": {
+    "heic": "bin/heic"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "commands.js",
+    "package.json"
+  ],
+  "author": "wj77998@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "fs-extra": "^9.1.0",
+    "heic-convert": "^1.2.4",
+    "progress": "^2.0.3"
+  }
+}
