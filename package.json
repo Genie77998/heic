@@ -1,6 +1,6 @@
 {
   "name": "heic2jpeg",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "heic 转jpg",
   "bin": {
     "heic": "bin/heic",
@@ -18,7 +18,9 @@
     "commands.js",
     "package.json"
   ],
-  "keywords": ["heic"],
+  "keywords": [
+    "heic"
+  ],
   "author": "wj77998@gmail.com",
   "license": "ISC",
   "dependencies": {
